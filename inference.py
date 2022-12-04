@@ -10,7 +10,7 @@ text2text_model = AutoModelForSeq2SeqLM.from_pretrained(model_checkpoint)
 text2image_model = MinDalle(
     models_root='./pretrained',
     dtype=torch.float32,
-    device='cpu',
+    device='cuda',
     is_mega=True,
     is_reusable=True
 )
