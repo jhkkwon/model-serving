@@ -1,0 +1,8 @@
+
+docker-compose.yml
+Dockerfile
+.docker
+.dockerignore
+pretrained
+venv
+example.png
